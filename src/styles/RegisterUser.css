@@ -1,0 +1,74 @@
+/* src/components/RegisterUser.css */
+
+.register-user {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.register-user form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-user input,
+.register-user select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.register-user button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.register-user button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result h3 {
+  color: green;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para la lista de usuarios */
+.user-list {
+  margin-top: 40px;
+}
+
+.user-list h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
